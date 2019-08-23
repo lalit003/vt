@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Mobile Suite]">
+  <test thread-count="5" verbose="0" name="CustomBillingSchedules(failed)">
+    <classes>
+      <class name="appium.android.App">
+        <methods>
+          <include name="signInPageValidation"/>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- appium.android.App -->
+    </classes>
+  </test> <!-- CustomBillingSchedules(failed) -->
+</suite> <!-- Failed suite [Mobile Suite] -->
